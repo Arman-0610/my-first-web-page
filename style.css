@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a23;
+  font-family: "Arial", "Vazirmatn", sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-top: 12rem;
+}
+
+#logo {
+  max-width: 300px;
+}
+
+.title {
+  color: #efefef;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.palindrome-div {
+  position: relative;
+  background-color: #efefef;
+  width: min(100vw, 450px);
+  min-height: 120px;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 6px 6px #002ead;
+  overflow: hidden;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+
+#text-input {
+  position: absolute;
+  transform: translate(10%, 50%);
+  color: #0a0a23;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: #5a01a7 solid 0.2rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 260px;
+}
+
+.palindrome-div label {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.check-btn {
+  position: absolute;
+  transform: translate(355%, 10%);
+  font-size: 25px;
+  background-color: #5a01a7;
+  border-radius: 10px;
+  padding: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.palindrome-definition {
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 2.5rem;
+  text-align: center;
+  background-color: darkgreen;
+  color: #ffffff;
+  width: min(100vw, 450px);
+  height: 18vh;
+  border-radius: 8px;
+}
+
+.user-input {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.height-increase {
+  height: 200px;
+}
+
+.resultContainer {
+  word-wrap: break-word;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+}
+
+#result {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
